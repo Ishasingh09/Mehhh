@@ -1,0 +1,30 @@
+def print_rose():
+    rose_art = """
+            ---,--'--{@    Happy Rose Day!    @}--'--,-
+             """
+    print(rose_art)
+
+def print_love_letter(recipient_name):
+    letter = f"""
+Dear {recipient_name},
+
+On this special day, as I send you this virtual rose, I want to express the deep affection and appreciation I hold for our friendship in my heart. Each petal of this rose symbolizes a different aspect of our journey together, a journey filled with laughter, love, and sometimes challenges, all of which have made our bond stronger.
+
+Just like a rose, our friendship has blossomed beautifully, overcoming the thorns and standing tall, proud, and gorgeous. I cherish every moment spent with you and look forward to creating countless more memories together.
+
+May this rose day not just symbolize the beauty of a flower, but also the depth and vibrancy of our friendship. I am incredibly grateful for your presence in my life and for all the joy, love, and color you bring to my world.
+
+chal ab tareef kar meri 😎
+
+[isha]
+    """
+    print(letter)
+
+def main():
+    recipient = input("Enter the recipient's name: ")
+    print(f"\nDear {recipient},\n")
+    print_rose()
+    print_love_letter(recipient)
+
+if __name__ == "__main__":
+    main()
